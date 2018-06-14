@@ -13,9 +13,6 @@ public class testAccount {
         accountArray[0] = new Account("0", "000", "Mercy Brown", 1000.0);
         accountArray[1] = new Account("1", "111", "Mercy Bro1n", 2000.0);
 
-
-
-
         //Step1: ask how much
 
         int choice1 = Integer.parseInt(JOptionPane.showInputDialog("1. if you have account - 2. if you want register"));

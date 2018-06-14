@@ -1,0 +1,71 @@
+import java.util.*;
+import java.lang.*;
+import javax.swing.JOptionPane;
+
+
+public class test {
+	 static int maxNum;
+    public static void main(String[] args) {
+
+        //1. ask how many number
+        //2.Input number to array
+        //3.validate numbers - re-enter number
+        //4.check if any number have the same number
+
+        //
+
+       
+
+        maxNum = Integer.parseInt(JOptionPane.showInputDialog("Please input number quantity:"));
+        // User input words step, maxNum words is 20.
+        // checking if the users choose more than 20 words,
+        if (maxNum > 20 || maxNum < 20) {
+
+            // Looping asking users to input quantity again until it is under 20
+            while (maxNum > 20) {
+                JOptionPane.showMessageDialog(null, "Sorry, it is too many, please choose under 20 words");
+                maxNum = Integer.parseInt(JOptionPane.showInputDialog("Please input number quantity:"));
+            }
+            // Stage2 : stored user keywords
+            int[] vocabulary = new int[maxNum]; // the amount in array is = maxNum
+            
+            JOptionPane.showMessageDialog(null, "Please input " + maxNum + " numbers ");
+            
+            
+            for (int i = 0; i < maxNum; i++){
+              vocabulary[i] = Integer.parseInt(JOptionPane.showInputDialog("Input"));
+
+            }
+            
+            check(vocabulary);
+            //For incremental vocabulary adding. Checking user vocabulary input
+
+
+
+        }
+    }
+    public static String check(String [] x) {
+    	boolean[] uniques = new boolean[maxNum];
+        for (int i = 0; i < maxNum; i++) {
+
+            vocabulary[i] = Integer.parseInt(JOptionPane.showInputDialog("Input"));
+            
+            for (int j = 0; j < maxNum; j++) {
+                if (vocabulary[i] == vocabulary[j] && i != j) {
+                    uniques[i] = false;
+                    //return unique number
+
+             }
+                
+            }
+        }
+        for (int i = 0; i < maxNum; i++) {
+            if(uniques[i]) {      
+                System.out.println(vocabulary[i] + " is unique " );
+            }
+        }
+
+    	return x;
+    }
+
+}

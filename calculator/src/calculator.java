@@ -16,7 +16,6 @@ public class calculator {
 
     public boolean calculus(String decision, double number, double number2) {
 
-
         if (decision.equals("plus")) {
             result = number + number2;
             System.out.println(result);

@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="48" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="431">
+              <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,9 +60,9 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,11 +136,12 @@
       <workItem from="1526613257589" duration="2565000" />
       <workItem from="1526626011527" duration="609000" />
       <workItem from="1526798983765" duration="19000" />
+      <workItem from="1528976883755" duration="939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5873000" />
+    <option name="totallyTimeSpent" value="6812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="301" y="1" width="698" height="775" extended-state="0" />
@@ -221,8 +222,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="48" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

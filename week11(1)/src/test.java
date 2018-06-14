@@ -6,12 +6,25 @@ public class test {
         int t = Integer.parseInt(JOptionPane.showInputDialog("input number"));
         JOptionPane.showMessageDialog(null,getSignAndParity(t));
     }
-
+    static String a;
+	static String q;
     public static String getSignAndParity(int t) {
-        String y = checkSign(t);
-        String q = checkOdd(t);
-
-        String e = y + " " +q;
+        //String y = checkSign(t);
+        //String q = checkOdd(t);    	  	
+    	if (t < 0 ) 
+    	{
+    		a = "positive";
+    	} else if (t> 0) {
+    		a = "negative";
+    	} 
+    	//can actually do 2 if here and java will run through all it 
+    	if ((t%2)==0) {
+    		q = "odd";
+    	} else if ((t%2) != 0){
+    		q = "not odd";
+    	}    	
+		String e = a + q;
+        //String e = y + " " +q;
         return e;
     }
 

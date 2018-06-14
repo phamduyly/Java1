@@ -71,6 +71,7 @@ public class GameManager extends JFrame implements KeyListener {
         }
         this.stage.setGameOverBackground();
         updateCanvas();
+
     }
 
     public void updateCanvas() {

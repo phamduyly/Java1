@@ -1,5 +1,3 @@
-import java.util.*;
-import java.lang.*;
 import javax.swing.JOptionPane;
 
 
@@ -38,19 +36,18 @@ public class test {
                 for (int j = 0; j < maxNum; j++) {
                     if (vocabulary[i] == vocabulary[j] && i != j) {
                         uniques[i] = false;
+                        uniques[j] = false;
                         //return unique number
-
-                 }
+                 } 
                 }
+                
             }
+            
             for (int i = 0; i < maxNum; i++) {
                 if(uniques[i]) {      
                     System.out.println(vocabulary[i] + " is unique " );
                 }
             }
-
-
-
         }
     }
 

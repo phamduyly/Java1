@@ -1,0 +1,75 @@
+package pizza;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class pizzaMen {
+
+	private static int maxNum;
+	private pizza[] pizzaArray;
+	public int noPiz;
+
+
+	public static void main(String[] args) {
+		System.out.println("input no of piza");
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		pizzaMen testObj = new pizzaMen(x);
+				
+	
+	
+	}
+
+	public pizzaMen(int x) {
+		this.pizzaArray = new pizza[maxNum];
+		
+		Scanner sc = new Scanner(System.in);
+		maxNum = x;
+		System.out.println("Maximum no piz this: " + maxNum);
+		
+		System.out.println("0. to add pizz, do not thing to find pizza");
+		//
+
+		int t = sc.nextInt();
+		while (t != 9) {
+			if (t == 0 && noPiz < maxNum) {
+				
+				this.addPizza(noPiz);
+				noPiz++;
+				
+				
+			} else if ( t == 1){
+				String n = sc.nextLine();
+				//System.out.println(this.findPizza(n));
+			} else {
+				System.out.println("max reached");
+			}
+
+		
+		}
+	}
+
+	public void addPizza(int a) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("name: ");
+		String d = sc.nextLine();
+		System.out.println("price: ");
+		double y = sc.nextDouble();
+		this.pizzaArray[a] = new pizza(d, y);
+		
+	}
+
+//	public String findPizza(String n) {
+//
+//		String p;
+//
+//		// for (int i = 0; i < maxNum; i++){
+//		// if (n)
+//		// }
+//
+//		return p;
+//
+//	}
+
+}

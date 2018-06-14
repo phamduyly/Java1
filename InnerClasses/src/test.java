@@ -3,19 +3,18 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(getLarge(10,20));
+		int num=13;
+		int i = 2;
 		
-
-	}
-	
-	public static int getLarge(int x, int y) {
+		while (i<num/2 && num%i !=0) {
+			i++;
+		}
+		System.out.println(num+" is ");
+		if (i<num / 2) 
+			System.out.print("not");
 		
-		if ( x > y) 
-			return x;
-		else if (x==y) 
-			return -1;
-		else 
-			return y;
+			System.out.println("prime");
+		
 		
 	}
 

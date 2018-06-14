@@ -1,0 +1,30 @@
+package pizza;
+
+public class pizza {
+	private String name; 
+	private double price;
+	
+	public pizza (String x, double y){
+		name = x;
+		price = y; 
+		
+	}
+	
+	private String getInfor(){
+		String a = name + price;
+		return a; 
+	}
+	
+	private String getName() {
+		return name; 
+	}
+	
+	private String getPrice() {
+		return price; 
+	}
+	
+	
+	
+}
+
+

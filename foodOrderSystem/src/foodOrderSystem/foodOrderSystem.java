@@ -87,15 +87,7 @@ public class foodOrderSystem {
     }
 
     public String addFood() {
-            String foodchosen = JOptionPane.showInputDialog("choose food that you want " + "0." +foodArray[0].getName() +
-                    "1." + foodArray[1].getName() + "2." +foodArray[2].getName());
-            foodidArray = foodchosen;
-
-        JOptionPane.showMessageDialog(null, "foods you chose " + foodArray);
-        return foodidArray;
-    }
-
-
+            String foodchosen = JOptionPane.showInpfdsa
     public void orderFood() {
         //passing information for order andd delivery
 

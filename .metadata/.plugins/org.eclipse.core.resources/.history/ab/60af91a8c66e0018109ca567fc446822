@@ -1,0 +1,14 @@
+package pizza;
+
+public class pizza {
+	private String name; 
+	private double price;
+	
+	public pizza (String x, double y){
+		name = x;
+		price = y; 
+		
+	}
+}
+
+

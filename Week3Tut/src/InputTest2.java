@@ -16,8 +16,8 @@ public class InputTest2 {
 		Scanner sc1 = new Scanner(System.in);
 		name = sc1.nextLine();
 		System.out.println("Hello "+name+" , Please ask me about 1.Weather 2.Daily life 3.Social Media 4.Countries 5.Funny");
-		Scanner sc = new Scanner(System.in);
-		String answers = sc.nextLine();
+		
+		String answers = sc1.nextLine();
 
 		//Whole function start here
 		//TODO: put function into method
@@ -57,7 +57,7 @@ public class InputTest2 {
 									}
 								}
 							}
-
+sc1.close();
 						}}}}}
 			/*
 			else {
